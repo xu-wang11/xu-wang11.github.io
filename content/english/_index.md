@@ -1,11 +1,12 @@
 ---
 # Banner
 banner:
-  title: "This is Xu Wang website"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Xu Wang | 王需"
+  content: "Research assistant professor"
+  image: "/images/banner_winter.jpg"
+  image_title: "Tsinghua University"
   button:
-    enable: true
+    enable: false
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/hugoplate"
 

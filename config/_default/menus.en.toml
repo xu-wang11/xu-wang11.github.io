@@ -7,44 +7,35 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "News"
+url = "news/"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "elements/"
+name = "Biography"
+url = "about/"
 weight = 3
 
 [[main]]
+name = "Awards"
+url = "awards/"
 weight = 4
-name = "Pages"
-hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
+name = "Publications"
+url = "awards/"
+weight = 5
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
+name = "Talks"
+url = "awards/"
+weight = 6
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+name = "Misc."
+url = "misc/"
+weight = 7
 
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
 
 
 # footer menu

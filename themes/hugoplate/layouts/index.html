@@ -1,8 +1,21 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
-      <div class="container">
+    <section class="section pt-0">
+      <div class="w-screen mt-4">
+        {{ with .image }}
+          {{ with resources.Get . }}
+            <div class="bg-center h-[32rem] bg-[url('{{ .RelPermalink }}')]">
+              {{ end }}
+        {{ end }}
+              <p>
+                {{.image_title | markdownify}}
+              </p>
+            </div>
+          
+        
+          
+        </div>
         <div class="row justify-center">
           <div class="lg:col-7 mb-8 text-center">
             <h1 class="mb-4">
