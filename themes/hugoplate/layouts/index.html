@@ -5,39 +5,54 @@
       <div class="w-screen mt-4">
         {{ with .image }}
           {{ with resources.Get . }}
-            <div class="bg-center h-[32rem] bg-[url('{{ .RelPermalink }}')]">
+            <div class="pt-48 bg-cover bg-mask-grey bg-blend-overlay bg-center h-[32rem] bg-[url('{{ .RelPermalink }}')]">
               {{ end }}
         {{ end }}
-              <p>
+        <div class="container">
+              <h1 class="text-white">
                 {{.image_title | markdownify}}
+              </h1>
+              <p class="pt-8 text-white tracking-widest ">
+                {{.image_detail | markdownify}}
               </p>
+              
+            </div>
             </div>
           
         
           
         </div>
+        <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 mb-8 text-center">
-            <h1 class="mb-4">
-              {{ .title | markdownify }}
-            </h1>
-            <p class="mb-8">
-              {{ .content | markdownify }}
-            </p>
-            {{ with .button }}
-              {{ if .enable }}
-                <a class="btn btn-primary" href="{{ .link | absURL }}">
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
-              {{ end }}
-            {{ end }}
+          <div class="flex">
+          <div class="basis-5/6">
+            <div class="lg:col-7 prose-a:text-purple-600">
+              <h2 class="mb-4 mt-8 tracking-wide font-sans text-purple-600 ">
+                {{ .name | markdownify }}
+              </h2>
+              <p class="mb-8 text-2xl">
+                {{ .position | markdownify }}
+              </p>
+              <p class="mb-8 text-2xl">
+                {{ .institution | markdownify }}
+              </p>
+              <p class="mb-8 text-2xl">
+                {{ .email | markdownify }}
+              </p>
+              <p class="mb-8 text-2xl">
+                [{{ .google | markdownify }}] [{{ .dblp | markdownify }}]
+              </p>
+            </div>
           </div>
-          <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" ) }}
+          <div class="basis-1/6 -mt-16">
+            {{ partial "image" (dict "Src" .avatar "Alt" "Avatar image" "Loading" "eager" "Class"  "" ) }}
           </div>
         </div>
+          
+          
+        </div>
       </div>
+    </div>
     </section>
   {{ end }}
   <!-- /Banner -->

@@ -1,10 +1,16 @@
 ---
 # Banner
 banner:
-  title: "Xu Wang | 王需"
-  content: "Research assistant professor"
+  name: "Xu Wang | 王需"
+  position: "Research Assistant Professor"
+  institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/), Tsinghua University"
+  email: "Email: xu_wang [at] tsinghua [dot] edu [dot] cn"
+  google: "[Google Scholar](https://scholar.google.com/citations?user=xxYiqkIAAAAJ)"
+  dblp: "[DBLP](https://dblp.uni-trier.de/pid/w/XuWang18.html)"
   image: "/images/banner_winter.jpg"
   image_title: "Tsinghua University"
+  image_detail: "ISO 16 55MM f2.4 1/205s"
+  avatar: "/images/portrait.jpg"
   button:
     enable: false
     label: "Get Started For Free"
