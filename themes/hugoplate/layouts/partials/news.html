@@ -1,0 +1,11 @@
+{{ $date := .date }}
+{{ $content := .content }}
+<div>
+<p>
+    <span class="prose-xl">{{ $date | markdownify }}</span><span class="prose-xl"> {{ $content | markdownify }} </span>
+</p>
+</div>
+
+
+
+

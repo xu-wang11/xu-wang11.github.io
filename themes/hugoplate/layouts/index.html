@@ -56,6 +56,26 @@
     </section>
   {{ end }}
   <!-- /Banner -->
+  
+   <!-- News -->
+  <section class="section-sm bg-gradient bg-mask-grey">
+    <div class="container">
+      <i class="fa-solid fa-rss"></i><h3>NEWS</h3>
+      <ol class="list-disc">
+        
+      {{ range $i, $e := .Params.news}}
+      <li>
+        <div class=" row items-center justify-between">
+          {{ partial "news" (dict "date" .date  "content"  .content ) }}
+        </div>
+      </li>
+      {{ end }}
+   
+      </ol>
+    </div>
+  </section>
+    <!-- /News -->
+
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}

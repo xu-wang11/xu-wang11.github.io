@@ -16,6 +16,17 @@ banner:
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/hugoplate"
 
+# news
+news:
+  - date: "**01/01/2024**"
+    content: "Happy New Year of the **Dragon**"
+
+  - date: "**12/19/2023**"
+    content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
+
+  - date: "**12/01/2023**"
+    content: "Our papers **BlueKey** and **InNetScheduler** were accepted by **IEEE INFOCOM 2024**."
+
 # Features
 features:
   - title: "What's Included in Hugoplate"
