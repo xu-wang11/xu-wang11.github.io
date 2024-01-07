@@ -19,13 +19,26 @@ banner:
 # news
 news:
   - date: "**01/01/2024**"
-    content: "Happy New Year of the **Dragon**"
+    content: "Happy New Year of the **Dragon**."
 
   - date: "**12/19/2023**"
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
   - date: "**12/01/2023**"
     content: "Our papers **BlueKey** and **InNetScheduler** were accepted by **IEEE INFOCOM 2024**."
+
+biography: "<p>Xu Wang received his B.E. and Ph.D. degrees in software engineering from Tsinghua University, Beijing, in 2015 and 2020, respectively. He is a research assistant professor at the Global Innovation Exchange, Tsinghua University, Beijing. He is a member of CCF, ACM, and IEEE. His research interests include the Industrial Internet, Edge Computing, and Internet of Things.</p><p>He is also cooperating with Fuyao Group for digital intelligence manufacturing.</p>"
+
+# talks
+talks:
+  - title: "智造时代：从数字先行到工业互联网"
+    link: "#"
+
+# misc
+misc:
+  - title: "Upcoming Conference"
+    link: ""
+
 
 # Features
 features:
