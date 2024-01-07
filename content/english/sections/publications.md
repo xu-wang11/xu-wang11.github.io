@@ -37,7 +37,7 @@ publications:
     publisher: "ACM International Conference on Mobile Systems, Applications, and Services"
     date: "June 2023"
     pdf: "MobiSys23_tsn.pdf"
-    slides: ""
+    slides: "Netopia.pdf"
     video: ""
     awards: ""
 
