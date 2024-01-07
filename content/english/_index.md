@@ -4,9 +4,11 @@ banner:
   name: "Xu Wang | 王需"
   position: "Research Assistant Professor"
   institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/), Tsinghua University"
-  email: "Email: xu_wang [at] tsinghua [dot] edu [dot] cn"
+  email: "xu_wang [at] tsinghua [dot] edu [dot] cn"
+  addr: "11-236, East Main Building, Tsinghua University, Beijing"
   google: "[Google Scholar](https://scholar.google.com/citations?user=xxYiqkIAAAAJ)"
   dblp: "[DBLP](https://dblp.uni-trier.de/pid/w/XuWang18.html)"
+  scholarmate: "[科研之友](https://www.scholarmate.com/P/tjGwBf)"
   image: "/images/banner_winter.jpg"
   image_title: "Tsinghua University"
   image_detail: "ISO 16 55MM f2.4 1/205s"
@@ -31,14 +33,13 @@ biography: "<p>Xu Wang received his B.E. and Ph.D. degrees in software engineeri
 
 # talks
 talks:
-  - title: "智造时代：从数字先行到工业互联网"
-    link: "#"
+  - title: "[智造时代：从数字先行到工业互联网](智造时代从数字先行到工业互联网.pdf)"
 
 # misc
 misc:
-  - title: "Upcoming Conference"
-    link: ""
-
+  - title: "[CCF推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/CN/)"
+  - title: "[清华大学计算机学科群推荐学术会议和期刊列表](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf)"
+  - title: "[清华大学全球创新学院招生](https://gix.tsinghua.edu.cn/zs1.htm)"
 
 # Features
 features:

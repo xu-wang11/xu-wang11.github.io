@@ -33,14 +33,17 @@
             <p class="mb-8 text-2xl">
               {{ .position | markdownify }}
             </p>
-            <p class="mb-8 text-2xl">
+            <p class="mb-8 text-2xl hover:prose-a:underline">
               {{ .institution | markdownify }}
             </p>
             <p class="mb-8 text-2xl">
-              {{ .email | markdownify }}
+              <i class="fa-solid fa-envelope"></i>  {{ .email | markdownify }}
             </p>
             <p class="mb-8 text-2xl">
-              [{{ .google | markdownify }}] [{{ .dblp | markdownify }}]
+              <i class="fa-solid fa-location-pin"></i> {{ .addr | markdownify }}
+            </p>
+            <p class="mb-8 text-2xl hover:prose-a:underline">
+              [{{ .google | markdownify }}] [{{ .dblp | markdownify }}] [{{ .scholarmate | markdownify }}]
             </p>
           </div>
         </div>
