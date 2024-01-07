@@ -36,11 +36,16 @@ weight = 7
 # footer menu
 [[footer]]
 name = "About"
-url = "#biography"
+url = "https://wangxu.ai/#biography"
 weight = 1
 
 [[footer]]
 name = "GIX"
 url = "https://gix.tsinghua.edu.cn/"
 weight = 2
+
+[[footer]]
+name = "Template"
+url = "https://hugoplate.netlify.app/"
+weight = 3
 
