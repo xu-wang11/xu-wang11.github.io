@@ -20,6 +20,8 @@ banner:
 
 # news
 news:
+  - date: "**01/12/2024**"
+    content: "Our work about Video Conference Systems was published on **IEEE Transactions on Consumer Electronics**"
   - date: "**01/01/2024**"
     content: "Happy New Year of the **Dragon**."
 

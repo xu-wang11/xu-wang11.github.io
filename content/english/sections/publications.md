@@ -6,6 +6,18 @@ description: "* Corresponding Author"
 # publications
 publications:
   - type: "Journal"
+    name: "TCE'24"
+    title: "Understanding the Quality of User Experience in Telepresence Systems from an Information Theory Perspective"
+    author: "[Ruiqing Wang](https://ruiqing.ai), Kebin Liu*, Ziyue Dang, **Xu Wang**, Fan Dang, Yue Sun, Yuang Tong, Haitian Zhao, Yunhao Liu"
+    link: "https://ieeexplore.ieee.org/document/10387998"
+    publisher: "IEEE Transactions on Consumer Electronics"
+    date: "January 2024"
+    pdf: "TCE24_video_conference.pdf"
+    slides: ""
+    video: ""
+    awards: ""
+
+  - type: "Journal"
     name: "TON'23"
     title: "EdgeDuet: Tiling Small Object Detection for Edge Assisted Autonomous Mobile Vision"
     author: "Zheng Yang*, **Xu Wang**, Jiahang Wu, Yi Zhao, Qiang Ma, Xin Miao, Li Zhang, Zimu Zhou"
