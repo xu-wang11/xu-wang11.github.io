@@ -20,7 +20,7 @@ banner:
 
 # news
 news:
-  - date: "**01/15/2024"
+  - date: "**01/15/2024**"
     content: "Our work BEANet was accepted on **ACM Transactions on Sensor Networks**."
   - date: "**01/12/2024**"
     content: "Our work about Video Conference Systems was published on **IEEE Transactions on Consumer Electronics**."
