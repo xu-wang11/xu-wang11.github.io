@@ -1,0 +1,133 @@
+# By default, "timezone" is AoE
+# Deadline format: YYYY-MM-DD
+
+# Networking
+- name: NSDI
+  year: 2025
+  date: "April 28 - 30"
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/conference/nsdi25
+  comment: |
+    Abstract deadlines: April 30, September 12
+  deadline:
+    - "2024-05-07 23:59:59"
+    - "2024-09-19 23:59:59"
+  place: Philadelphia, PA, USA
+  tags: [NET, CONF]
+
+- name: CoNEXT
+  year: 2024
+  date: "TBA"
+  description: International Conference on emerging Networking EXperiments and Technologies
+  link: https://conferences.sigcomm.org/co-next/2024
+  comment: |
+    Registration deadlines: November 27, June 20
+  deadline:
+    - "2023-12-04 24:00"
+    - "2024-06-27 24:00"
+  place: Los Angeles, California, USA
+  tags: [NET, CONF]
+
+- name: CCR
+  year: 2024
+  date: "Rolling"
+  description: SIGCOMM Computer Communication Review
+  link: https://ccronline.sigcomm.org/
+  deadline:
+    - "2024-03-01 06:59"
+    - "2024-06-01 06:59"
+    - "2024-09-01 06:59"
+    - "2024-12-01 06:59"
+  timezone: America/New_York
+  place: N/A
+  tags: [NET]
+
+- name: HotNets
+  year: 2023
+  date: "November 28 - 29"
+  description: ACM Workshop on Hot Topics in Networks
+  link: https://conferences.sigcomm.org/hotnets/2023/
+  deadline: ["2023-06-30 17:59:59"]
+  timezone: America/New_York
+  place: Boston, Massachusetts, USA
+  tags: [NET, SHOP]
+
+- name: FOCI
+  year: 2024
+  date: "July 15"
+  description: Free and Open Communications on the Internet
+  link: https://foci.community/foci24.html
+  deadline: ["2024-04-15"]
+  place: Bristol, United Kingdom
+  tags: [NET, CONF]
+
+- name: IEEE INFOCOM
+  year: 2024
+  date: "May 20 - 23"
+  description: IEEE International Conference on Computer Communications
+  link: https://infocom2024.ieee-infocom.org/
+  comment: |
+    Abstract deadline: July 23 (23:59 AoE)
+  deadline: ["2023-07-30 23:59:59"]
+  place: Vancouver, British Columbia, Canada
+  tags: [NET, CONF]
+
+- name: SIGCOMM
+  year: 2024
+  date: "August 4 - 8"
+  description: Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication
+  link: https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
+  comment: |
+    Abstract deadline: January 26 (23:59 UTC)
+  deadline: ["2024-02-02 23:59"]
+  timezone: Etc/UTC
+  place: Sydney, Australia
+  tags: [NET, CONF]
+
+# Measurement
+- name: IMC
+  year: 2024
+  date: "November 4 - 6"
+  description: ACM/SIGCOMM Internet Measurement Conference
+  link: https://conferences.sigcomm.org/imc/2024
+  comment: |
+    Abstract deadline: May 8 (23:59 AoE)
+  deadline: ["2024-05-15 23:59"]
+  place: Madrid, Spain
+  tags: [MEASURE, CONF]
+
+- name: PAM
+  year: 2024
+  date: "March 11 - 13"
+  description: Passive and Active Measurement Conference
+  link: https://pam2024.cs.northwestern.edu/
+  comment: |
+    Registration deadline: October 28th 2023 AoE (October 29th 11:59:59AM UTC)
+  deadline: ["2023-11-02 23:59:59"]
+  place: Virtual
+  tags: [MEASURE, CONF]
+
+- name: WWW
+  year: 2024
+  date: "May 13 - 17"
+  description: The Web Conference
+  link: https://www2024.thewebconf.org/
+  comment: |
+    Abstract deadlines: October 5 (23:59 AoE)
+  deadline: ["2023-10-12 23:59"]
+  place: Singapore
+  tags: [MEASURE, CONF]
+
+- name: SIGMETRICS
+  year: 2024
+  date: "June 10 - 14"
+  description: International Conference on Measurement and Modeling of Computer Systems
+  link: https://www.sigmetrics.org/sigmetrics2024
+  comment: |
+    Abstract deadlines: August 2 (23:59 AoE), October 4 (23:59 AoE), January 24 (23:59 AoE)
+  deadline:
+    - "2023-08-09 23:59"
+    - "2023-10-11 23:59"
+    - "2024-01-31 23:59"
+  place: Venice, Italy
+  tags: [MEASURE, CONF]
