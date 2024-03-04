@@ -71,7 +71,7 @@ jobs:
           ruby-version: '3.0'  # Not needed with a .ruby-version file
           bundler-cache: true  # Runs 'bundle install' and caches installed gems automatically
       - name: Build with Jekyll
-        run: JEKYLL_ENV=production bundle exec jekyll build  # Default destination is _site
+        run: JEKYLL_ENV=production jekyll build  # Default destination is _site
         working-directory: networking-deadlines
       - name: Merge build results without overriding
         run: cp -RTn networking-deadlines/_site public 
