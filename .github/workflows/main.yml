@@ -65,6 +65,13 @@ jobs:
         env:
           FILE_NAME: "./public/CNAME"
           FILE_DATA: "wangxu.ai"
+      - name: Create folder
+        run: mkdir -p ./public/networking-deadlines/
+      - name: Copy Directory
+        uses: MadaraUchiha/copy-action@0.0.1
+        with:
+          source: "./networking-deadlines/_site"
+          target: "./public/networking-deadlines/"
 
   # Deployment job
   deploy:
