@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://noise-lab.net/networking-deadlines
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:nsdi2025-0@noise-lab.net/networking-deadlines
+SUMMARY:NSDI 2025 Deadline (1 / 2)
+DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX Symposium on Networked Systems Design and Implementation\nAbstract deadlines: April 30, September 12
+\nhttps://www.usenix.org/conference/nsdi25
+URL:https://www.usenix.org/conference/nsdi25
+LOCATION:Philadelphia, PA, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240507T235900
+DTEND;TZID=Etc/GMT+12:20240507T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:nsdi2025-1@noise-lab.net/networking-deadlines
+SUMMARY:NSDI 2025 Deadline (2 / 2)
+DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX Symposium on Networked Systems Design and Implementation\nAbstract deadlines: April 30, September 12
+\nhttps://www.usenix.org/conference/nsdi25
+URL:https://www.usenix.org/conference/nsdi25
+LOCATION:Philadelphia, PA, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240919T235900
+DTEND;TZID=Etc/GMT+12:20240919T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:conext2024-0@noise-lab.net/networking-deadlines
+SUMMARY:CoNEXT 2024 Deadline (1 / 2)
+DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternational Conference on emerging Networking EXperiments and Technologies\nRegistration deadlines: November 27, June 20
+\nhttps://conferences.sigcomm.org/co-next/2024
+URL:https://conferences.sigcomm.org/co-next/2024
+LOCATION:Los Angeles, California, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20231205T000000
+DTEND;TZID=Etc/GMT+12:20231205T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:conext2024-1@noise-lab.net/networking-deadlines
+SUMMARY:CoNEXT 2024 Deadline (2 / 2)
+DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternational Conference on emerging Networking EXperiments and Technologies\nRegistration deadlines: November 27, June 20
+\nhttps://conferences.sigcomm.org/co-next/2024
+URL:https://conferences.sigcomm.org/co-next/2024
+LOCATION:Los Angeles, California, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240628T000000
+DTEND;TZID=Etc/GMT+12:20240628T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-0@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (1 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240301T065900
+DTEND;TZID=America/New_York:20240301T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-1@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (2 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240601T065900
+DTEND;TZID=America/New_York:20240601T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-2@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (3 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240901T065900
+DTEND;TZID=America/New_York:20240901T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-3@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (4 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20241201T065900
+DTEND;TZID=America/New_York:20241201T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:hotnets2023-0@noise-lab.net/networking-deadlines
+SUMMARY:HotNets 2023 Deadline
+DESCRIPTION:Deadline for HotNets 2023 November 28 - 29 Boston, Massachusetts, USA\nACM Workshop on Hot Topics in Networks\n\nhttps://conferences.sigcomm.org/hotnets/2023/
+URL:https://conferences.sigcomm.org/hotnets/2023/
+LOCATION:Boston, Massachusetts, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20230630T175900
+DTEND;TZID=America/New_York:20230630T175959
+END:VEVENT
+BEGIN:VEVENT
+UID:foci2024-0@noise-lab.net/networking-deadlines
+SUMMARY:FOCI 2024 Deadline
+DESCRIPTION:Deadline for FOCI 2024 July 15 Bristol, United Kingdom\nFree and Open Communications on the Internet\n\nhttps://foci.community/foci24.html
+URL:https://foci.community/foci24.html
+LOCATION:Bristol, United Kingdom
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240415T000000
+DTEND;TZID=Etc/GMT+12:20240415T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-infocom2024-0@noise-lab.net/networking-deadlines
+SUMMARY:IEEE INFOCOM 2024 Deadline
+DESCRIPTION:Deadline for IEEE INFOCOM 2024 May 20 - 23 Vancouver, British Columbia, Canada\nIEEE International Conference on Computer Communications\nAbstract deadline: July 23 (23:59 AoE)
+\nhttps://infocom2024.ieee-infocom.org/
+URL:https://infocom2024.ieee-infocom.org/
+LOCATION:Vancouver, British Columbia, Canada
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20230730T235900
+DTEND;TZID=Etc/GMT+12:20230730T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sigcomm2024-0@noise-lab.net/networking-deadlines
+SUMMARY:SIGCOMM 2024 Deadline
+DESCRIPTION:Deadline for SIGCOMM 2024 August 4 - 8 Sydney, Australia\nConference on Applications, Technologies, Architectures, and Protocols for Computer Communication\nAbstract deadline: January 26 (23:59 UTC)
+\nhttps://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
+URL:https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
+LOCATION:Sydney, Australia
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/UTC:20240202T235900
+DTEND;TZID=Etc/UTC:20240202T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:imc2024-0@noise-lab.net/networking-deadlines
+SUMMARY:IMC 2024 Deadline
+DESCRIPTION:Deadline for IMC 2024 November 4 - 6 Madrid, Spain\nACM/SIGCOMM Internet Measurement Conference\nAbstract deadline: May 8 (23:59 AoE)
+\nhttps://conferences.sigcomm.org/imc/2024
+URL:https://conferences.sigcomm.org/imc/2024
+LOCATION:Madrid, Spain
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240515T235900
+DTEND;TZID=Etc/GMT+12:20240515T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:pam2024-0@noise-lab.net/networking-deadlines
+SUMMARY:PAM 2024 Deadline
+DESCRIPTION:Deadline for PAM 2024 March 11 - 13 Virtual\nPassive and Active Measurement Conference\nRegistration deadline: October 28th 2023 AoE (October 29th 11:59:59AM UTC)
+\nhttps://pam2024.cs.northwestern.edu/
+URL:https://pam2024.cs.northwestern.edu/
+LOCATION:Virtual
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20231102T235900
+DTEND;TZID=Etc/GMT+12:20231102T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:www2024-0@noise-lab.net/networking-deadlines
+SUMMARY:WWW 2024 Deadline
+DESCRIPTION:Deadline for WWW 2024 May 13 - 17 Singapore\nThe Web Conference\nAbstract deadlines: October 5 (23:59 AoE)
+\nhttps://www2024.thewebconf.org/
+URL:https://www2024.thewebconf.org/
+LOCATION:Singapore
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20231012T235900
+DTEND;TZID=Etc/GMT+12:20231012T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sigmetrics2024-0@noise-lab.net/networking-deadlines
+SUMMARY:SIGMETRICS 2024 Deadline (1 / 3)
+DESCRIPTION:Deadline for SIGMETRICS 2024 June 10 - 14 Venice, Italy\nInternational Conference on Measurement and Modeling of Computer Systems\nAbstract deadlines: August 2 (23:59 AoE), October 4 (23:59 AoE), January 24 (23:59 AoE)
+\nhttps://www.sigmetrics.org/sigmetrics2024
+URL:https://www.sigmetrics.org/sigmetrics2024
+LOCATION:Venice, Italy
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20230809T235900
+DTEND;TZID=Etc/GMT+12:20230809T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sigmetrics2024-1@noise-lab.net/networking-deadlines
+SUMMARY:SIGMETRICS 2024 Deadline (2 / 3)
+DESCRIPTION:Deadline for SIGMETRICS 2024 June 10 - 14 Venice, Italy\nInternational Conference on Measurement and Modeling of Computer Systems\nAbstract deadlines: August 2 (23:59 AoE), October 4 (23:59 AoE), January 24 (23:59 AoE)
+\nhttps://www.sigmetrics.org/sigmetrics2024
+URL:https://www.sigmetrics.org/sigmetrics2024
+LOCATION:Venice, Italy
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20231011T235900
+DTEND;TZID=Etc/GMT+12:20231011T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sigmetrics2024-2@noise-lab.net/networking-deadlines
+SUMMARY:SIGMETRICS 2024 Deadline (3 / 3)
+DESCRIPTION:Deadline for SIGMETRICS 2024 June 10 - 14 Venice, Italy\nInternational Conference on Measurement and Modeling of Computer Systems\nAbstract deadlines: August 2 (23:59 AoE), October 4 (23:59 AoE), January 24 (23:59 AoE)
+\nhttps://www.sigmetrics.org/sigmetrics2024
+URL:https://www.sigmetrics.org/sigmetrics2024
+LOCATION:Venice, Italy
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240131T235900
+DTEND;TZID=Etc/GMT+12:20240131T235959
+END:VEVENT
+END:VCALENDAR

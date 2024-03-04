@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://noise-lab.net/networking-deadlines
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:nsdi2025-0@noise-lab.net/networking-deadlines
+SUMMARY:NSDI 2025 Deadline (1 / 2)
+DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX Symposium on Networked Systems Design and Implementation\nAbstract deadlines: April 30, September 12
+\nhttps://www.usenix.org/conference/nsdi25
+URL:https://www.usenix.org/conference/nsdi25
+LOCATION:Philadelphia, PA, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240507T235900
+DTEND;TZID=Etc/GMT+12:20240507T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:nsdi2025-1@noise-lab.net/networking-deadlines
+SUMMARY:NSDI 2025 Deadline (2 / 2)
+DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX Symposium on Networked Systems Design and Implementation\nAbstract deadlines: April 30, September 12
+\nhttps://www.usenix.org/conference/nsdi25
+URL:https://www.usenix.org/conference/nsdi25
+LOCATION:Philadelphia, PA, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240919T235900
+DTEND;TZID=Etc/GMT+12:20240919T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:conext2024-0@noise-lab.net/networking-deadlines
+SUMMARY:CoNEXT 2024 Deadline (1 / 2)
+DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternational Conference on emerging Networking EXperiments and Technologies\nRegistration deadlines: November 27, June 20
+\nhttps://conferences.sigcomm.org/co-next/2024
+URL:https://conferences.sigcomm.org/co-next/2024
+LOCATION:Los Angeles, California, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20231205T000000
+DTEND;TZID=Etc/GMT+12:20231205T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:conext2024-1@noise-lab.net/networking-deadlines
+SUMMARY:CoNEXT 2024 Deadline (2 / 2)
+DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternational Conference on emerging Networking EXperiments and Technologies\nRegistration deadlines: November 27, June 20
+\nhttps://conferences.sigcomm.org/co-next/2024
+URL:https://conferences.sigcomm.org/co-next/2024
+LOCATION:Los Angeles, California, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240628T000000
+DTEND;TZID=Etc/GMT+12:20240628T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-0@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (1 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240301T065900
+DTEND;TZID=America/New_York:20240301T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-1@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (2 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240601T065900
+DTEND;TZID=America/New_York:20240601T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-2@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (3 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20240901T065900
+DTEND;TZID=America/New_York:20240901T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr2024-3@noise-lab.net/networking-deadlines
+SUMMARY:CCR 2024 Deadline (4 / 4)
+DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
+URL:https://ccronline.sigcomm.org/
+LOCATION:N/A
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20241201T065900
+DTEND;TZID=America/New_York:20241201T065959
+END:VEVENT
+BEGIN:VEVENT
+UID:hotnets2023-0@noise-lab.net/networking-deadlines
+SUMMARY:HotNets 2023 Deadline
+DESCRIPTION:Deadline for HotNets 2023 November 28 - 29 Boston, Massachusetts, USA\nACM Workshop on Hot Topics in Networks\n\nhttps://conferences.sigcomm.org/hotnets/2023/
+URL:https://conferences.sigcomm.org/hotnets/2023/
+LOCATION:Boston, Massachusetts, USA
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=America/New_York:20230630T175900
+DTEND;TZID=America/New_York:20230630T175959
+END:VEVENT
+BEGIN:VEVENT
+UID:foci2024-0@noise-lab.net/networking-deadlines
+SUMMARY:FOCI 2024 Deadline
+DESCRIPTION:Deadline for FOCI 2024 July 15 Bristol, United Kingdom\nFree and Open Communications on the Internet\n\nhttps://foci.community/foci24.html
+URL:https://foci.community/foci24.html
+LOCATION:Bristol, United Kingdom
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20240415T000000
+DTEND;TZID=Etc/GMT+12:20240415T000059
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-infocom2024-0@noise-lab.net/networking-deadlines
+SUMMARY:IEEE INFOCOM 2024 Deadline
+DESCRIPTION:Deadline for IEEE INFOCOM 2024 May 20 - 23 Vancouver, British Columbia, Canada\nIEEE International Conference on Computer Communications\nAbstract deadline: July 23 (23:59 AoE)
+\nhttps://infocom2024.ieee-infocom.org/
+URL:https://infocom2024.ieee-infocom.org/
+LOCATION:Vancouver, British Columbia, Canada
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/GMT+12:20230730T235900
+DTEND;TZID=Etc/GMT+12:20230730T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sigcomm2024-0@noise-lab.net/networking-deadlines
+SUMMARY:SIGCOMM 2024 Deadline
+DESCRIPTION:Deadline for SIGCOMM 2024 August 4 - 8 Sydney, Australia\nConference on Applications, Technologies, Architectures, and Protocols for Computer Communication\nAbstract deadline: January 26 (23:59 UTC)
+\nhttps://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
+URL:https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
+LOCATION:Sydney, Australia
+CLASS:PUBLIC
+DTSTAMP:20240304T17001709542834Z
+DTSTART;TZID=Etc/UTC:20240202T235900
+DTEND;TZID=Etc/UTC:20240202T235959
+END:VEVENT
+END:VCALENDAR
