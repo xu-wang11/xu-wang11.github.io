@@ -10,7 +10,7 @@ DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX S
 URL:https://www.usenix.org/conference/nsdi25
 LOCATION:Philadelphia, PA, USA
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/GMT+12:20240507T235900
 DTEND;TZID=Etc/GMT+12:20240507T235959
 END:VEVENT
@@ -22,7 +22,7 @@ DESCRIPTION:Deadline for NSDI 2025 April 28 - 30 Philadelphia, PA, USA\nUSENIX S
 URL:https://www.usenix.org/conference/nsdi25
 LOCATION:Philadelphia, PA, USA
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/GMT+12:20240919T235900
 DTEND;TZID=Etc/GMT+12:20240919T235959
 END:VEVENT
@@ -34,7 +34,7 @@ DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternati
 URL:https://conferences.sigcomm.org/co-next/2024
 LOCATION:Los Angeles, California, USA
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/GMT+12:20231205T000000
 DTEND;TZID=Etc/GMT+12:20231205T000059
 END:VEVENT
@@ -46,53 +46,9 @@ DESCRIPTION:Deadline for CoNEXT 2024 TBA Los Angeles, California, USA\nInternati
 URL:https://conferences.sigcomm.org/co-next/2024
 LOCATION:Los Angeles, California, USA
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/GMT+12:20240628T000000
 DTEND;TZID=Etc/GMT+12:20240628T000059
-END:VEVENT
-BEGIN:VEVENT
-UID:ccr2024-0@noise-lab.net/networking-deadlines
-SUMMARY:CCR 2024 Deadline (1 / 4)
-DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
-URL:https://ccronline.sigcomm.org/
-LOCATION:N/A
-CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
-DTSTART;TZID=America/New_York:20240301T065900
-DTEND;TZID=America/New_York:20240301T065959
-END:VEVENT
-BEGIN:VEVENT
-UID:ccr2024-1@noise-lab.net/networking-deadlines
-SUMMARY:CCR 2024 Deadline (2 / 4)
-DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
-URL:https://ccronline.sigcomm.org/
-LOCATION:N/A
-CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
-DTSTART;TZID=America/New_York:20240601T065900
-DTEND;TZID=America/New_York:20240601T065959
-END:VEVENT
-BEGIN:VEVENT
-UID:ccr2024-2@noise-lab.net/networking-deadlines
-SUMMARY:CCR 2024 Deadline (3 / 4)
-DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
-URL:https://ccronline.sigcomm.org/
-LOCATION:N/A
-CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
-DTSTART;TZID=America/New_York:20240901T065900
-DTEND;TZID=America/New_York:20240901T065959
-END:VEVENT
-BEGIN:VEVENT
-UID:ccr2024-3@noise-lab.net/networking-deadlines
-SUMMARY:CCR 2024 Deadline (4 / 4)
-DESCRIPTION:Deadline for CCR 2024 Rolling N/A\nSIGCOMM Computer Communication Review\n\nhttps://ccronline.sigcomm.org/
-URL:https://ccronline.sigcomm.org/
-LOCATION:N/A
-CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
-DTSTART;TZID=America/New_York:20241201T065900
-DTEND;TZID=America/New_York:20241201T065959
 END:VEVENT
 BEGIN:VEVENT
 UID:hotnets2023-0@noise-lab.net/networking-deadlines
@@ -101,20 +57,9 @@ DESCRIPTION:Deadline for HotNets 2023 November 28 - 29 Boston, Massachusetts, US
 URL:https://conferences.sigcomm.org/hotnets/2023/
 LOCATION:Boston, Massachusetts, USA
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=America/New_York:20230630T175900
 DTEND;TZID=America/New_York:20230630T175959
-END:VEVENT
-BEGIN:VEVENT
-UID:foci2024-0@noise-lab.net/networking-deadlines
-SUMMARY:FOCI 2024 Deadline
-DESCRIPTION:Deadline for FOCI 2024 July 15 Bristol, United Kingdom\nFree and Open Communications on the Internet\n\nhttps://foci.community/foci24.html
-URL:https://foci.community/foci24.html
-LOCATION:Bristol, United Kingdom
-CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
-DTSTART;TZID=Etc/GMT+12:20240415T000000
-DTEND;TZID=Etc/GMT+12:20240415T000059
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-infocom2024-0@noise-lab.net/networking-deadlines
@@ -124,7 +69,7 @@ DESCRIPTION:Deadline for IEEE INFOCOM 2024 May 20 - 23 Vancouver, British Columb
 URL:https://infocom2024.ieee-infocom.org/
 LOCATION:Vancouver, British Columbia, Canada
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/GMT+12:20230730T235900
 DTEND;TZID=Etc/GMT+12:20230730T235959
 END:VEVENT
@@ -136,8 +81,104 @@ DESCRIPTION:Deadline for SIGCOMM 2024 August 4 - 8 Sydney, Australia\nConference
 URL:https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
 LOCATION:Sydney, Australia
 CLASS:PUBLIC
-DTSTAMP:20240305T13151709615711Z
+DTSTAMP:20240305T14401709620820Z
 DTSTART;TZID=Etc/UTC:20240202T235900
 DTEND;TZID=Etc/UTC:20240202T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:mobicom2024-0@noise-lab.net/networking-deadlines
+SUMMARY:MobiCom 2024 Deadline
+DESCRIPTION:Deadline for MobiCom 2024 Fall Washington, D.C., USA\nAnnual conferences sponsored by ACM SIGMOBILE\nAbstract deadlines: March 8 (23:59 AoE)
+\nhttps://www.sigmobile.org/mobicom/2024/index.html
+URL:https://www.sigmobile.org/mobicom/2024/index.html
+LOCATION:Washington, D.C., USA
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240315T235900
+DTEND;TZID=Etc/GMT+12:20240315T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:mobisys2024-0@noise-lab.net/networking-deadlines
+SUMMARY:MobiSys 2024 Deadline
+DESCRIPTION:Deadline for MobiSys 2024 June 3 - 7 Tokyo, Japan\nThe 22nd ACM International Conference on Mobile Systems, Applications, and Services\nAbstract deadlines: November 23 (23:59 AoE)
+\nhttps://www.sigmobile.org/mobisys/2024/
+URL:https://www.sigmobile.org/mobisys/2024/
+LOCATION:Tokyo, Japan
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20231130T235900
+DTEND;TZID=Etc/GMT+12:20231130T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:sensys2023-0@noise-lab.net/networking-deadlines
+SUMMARY:SenSys 2023 Deadline
+DESCRIPTION:Deadline for SenSys 2023 November 13 - 15 Istanbul, Turkiye\nThe 21th ACM Conference on Embedded Networked Sensor Systems\nAbstract deadlines: June 22 (23:59 AoE)
+\nhttps://sensys.acm.org/2023/
+URL:https://sensys.acm.org/2023/
+LOCATION:Istanbul, Turkiye
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20230629T235900
+DTEND;TZID=Etc/GMT+12:20230629T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:icnp2024-0@noise-lab.net/networking-deadlines
+SUMMARY:ICNP 2024 Deadline
+DESCRIPTION:Deadline for ICNP 2024 October 28 - 31 Charleroi, Belgium\nThe 32nd IEEE International Conference on Network Protocols\nAbstract deadlines: May 17 (23:59 AoE)
+\nhttps://icnp24.cs.ucr.edu/
+URL:https://icnp24.cs.ucr.edu/
+LOCATION:Charleroi, Belgium
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240524T235900
+DTEND;TZID=Etc/GMT+12:20240524T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:mobihoc2024-0@noise-lab.net/networking-deadlines
+SUMMARY:MOBIHOC 2024 Deadline
+DESCRIPTION:Deadline for MOBIHOC 2024 October 7 - 10 Athens, Greece\nThe 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing\nAbstract deadlines: March 24 (23:59 AoE)
+\nhttps://www.sigmobile.org/mobihoc/2024/
+URL:https://www.sigmobile.org/mobihoc/2024/
+LOCATION:Athens, Greece
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240331T235900
+DTEND;TZID=Etc/GMT+12:20240331T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:secon2024-0@noise-lab.net/networking-deadlines
+SUMMARY:SECON 2024 Deadline
+DESCRIPTION:Deadline for SECON 2024 October 7 - 10 Athens, Greece\nThe 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing\nAbstract deadlines: March 24 (23:59 AoE)
+\nhttps://www.sigmobile.org/mobihoc/2024/
+URL:https://www.sigmobile.org/mobihoc/2024/
+LOCATION:Athens, Greece
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240331T235900
+DTEND;TZID=Etc/GMT+12:20240331T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:turc2024-0@noise-lab.net/networking-deadlines
+SUMMARY:TURC 2024 Deadline
+DESCRIPTION:Deadline for TURC 2024 July 05 - 07 Changsha, China\nACM Turing Award Celebration Conference\nAbstract deadlines: July 05 (23:59 AoE)
+\nhttps://www.acmturc.com/2024/#/index
+URL:https://www.acmturc.com/2024/#/index
+LOCATION:Changsha, China
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240705T235900
+DTEND;TZID=Etc/GMT+12:20240705T235959
+END:VEVENT
+BEGIN:VEVENT
+UID:mass2024-0@noise-lab.net/networking-deadlines
+SUMMARY:MASS 2024 Deadline
+DESCRIPTION:Deadline for MASS 2024 September 23 - October 25 Seoul, South Korea\nThe IEEE International Conference on Mobile Ad-Hoc and Smart Systems\nAbstract deadlines: April 01 (23:59 AoE)
+\nhttps://sites.google.com/view/ieee-mass-2024/
+URL:https://sites.google.com/view/ieee-mass-2024/
+LOCATION:Seoul, South Korea
+CLASS:PUBLIC
+DTSTAMP:20240305T14401709620820Z
+DTSTART;TZID=Etc/GMT+12:20240408T235900
+DTEND;TZID=Etc/GMT+12:20240408T235959
 END:VEVENT
 END:VCALENDAR

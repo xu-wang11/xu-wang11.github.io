@@ -1,15 +1,15 @@
-title: Networking and Measurement Conference Deadlines
-description: Countdowns to top Networking and Measurement conference deadlines.
-author: Andrew Chu
+title: Networking and HCI Conference Deadlines
+description: Countdowns to top Networking and HCI conference deadlines.
+author: Xu Wang
 
 domain: ""
-baseurl: "https://noise-lab.net/networking-deadlines"
+baseurl: "https://wangxu.ai/ddl/"
 # Use this baseurl for local testing with `jekyll serve`
 # baseurl: ""
 
-twitter_username: hiddenmarkov
-github_username: noise-lab
-github_repo: networking-deadlines
+twitter_username: nothing
+github_username: xu-wang11
+github_repo: norepo
 
 markdown: kramdown
 

@@ -28,20 +28,6 @@
   place: Los Angeles, California, USA
   tags: [NET, CONF]
 
-- name: CCR
-  year: 2024
-  date: "Rolling"
-  description: SIGCOMM Computer Communication Review
-  link: https://ccronline.sigcomm.org/
-  deadline:
-    - "2024-03-01 06:59"
-    - "2024-06-01 06:59"
-    - "2024-09-01 06:59"
-    - "2024-12-01 06:59"
-  timezone: America/New_York
-  place: N/A
-  tags: [NET]
-
 - name: HotNets
   year: 2023
   date: "November 28 - 29"
@@ -52,14 +38,6 @@
   place: Boston, Massachusetts, USA
   tags: [NET, SHOP]
 
-- name: FOCI
-  year: 2024
-  date: "July 15"
-  description: Free and Open Communications on the Internet
-  link: https://foci.community/foci24.html
-  deadline: ["2024-04-15"]
-  place: Bristol, United Kingdom
-  tags: [NET, CONF]
 
 - name: IEEE INFOCOM
   year: 2024
@@ -84,29 +62,6 @@
   place: Sydney, Australia
   tags: [NET, CONF]
 
-# Measurement
-- name: IMC
-  year: 2024
-  date: "November 4 - 6"
-  description: ACM/SIGCOMM Internet Measurement Conference
-  link: https://conferences.sigcomm.org/imc/2024
-  comment: |
-    Abstract deadline: May 8 (23:59 AoE)
-  deadline: ["2024-05-15 23:59"]
-  place: Madrid, Spain
-  tags: [MEASURE, CONF]
-
-- name: PAM
-  year: 2024
-  date: "March 11 - 13"
-  description: Passive and Active Measurement Conference
-  link: https://pam2024.cs.northwestern.edu/
-  comment: |
-    Registration deadline: October 28th 2023 AoE (October 29th 11:59:59AM UTC)
-  deadline: ["2023-11-02 23:59:59"]
-  place: Virtual
-  tags: [MEASURE, CONF]
-
 - name: WWW
   year: 2024
   date: "May 13 - 17"
@@ -118,16 +73,146 @@
   place: Singapore
   tags: [MEASURE, CONF]
 
-- name: SIGMETRICS
+
+- name: MobiCom
   year: 2024
-  date: "June 10 - 14"
-  description: International Conference on Measurement and Modeling of Computer Systems
-  link: https://www.sigmetrics.org/sigmetrics2024
+  date: "Fall"
+  description: Annual conferences sponsored by ACM SIGMOBILE
+  link: https://www.sigmobile.org/mobicom/2024/index.html
   comment: |
-    Abstract deadlines: August 2 (23:59 AoE), October 4 (23:59 AoE), January 24 (23:59 AoE)
-  deadline:
-    - "2023-08-09 23:59"
-    - "2023-10-11 23:59"
-    - "2024-01-31 23:59"
-  place: Venice, Italy
-  tags: [MEASURE, CONF]
+    Abstract deadlines: March 8 (23:59 AoE)
+  deadline: ["2024-03-15 23:59"]
+  place: Washington, D.C., USA
+  tags: [NET, CONF]
+
+- name: MobiSys
+  year: 2024
+  date: "June 3 - 7"
+  description: The 22nd ACM International Conference on Mobile Systems, Applications, and Services
+  link: https://www.sigmobile.org/mobisys/2024/
+  comment: |
+    Abstract deadlines: November 23 (23:59 AoE)
+  deadline: ["2023-11-30 23:59"]
+  place: Tokyo, Japan
+  tags: [NET, CONF]
+
+- name: SenSys
+  year: 2023
+  date: "November 13 - 15"
+  description: The 21th ACM Conference on Embedded Networked Sensor Systems
+  link: https://sensys.acm.org/2023/
+  comment: |
+    Abstract deadlines: June 22 (23:59 AoE)
+  deadline: ["2023-06-29 23:59"]
+  place: Istanbul, Turkiye
+  tags: [NET, CONF]
+
+- name: ICNP
+  year: 2024
+  date: "October 28 - 31"
+  description: The 32nd IEEE International Conference on Network Protocols
+  link: https://icnp24.cs.ucr.edu/
+  comment: |
+    Abstract deadlines: May 17 (23:59 AoE)
+  deadline: ["2024-05-24 23:59"]
+  place: Charleroi, Belgium
+  tags: [NET, CONF]
+
+- name: MOBIHOC
+  year: 2024
+  date: "October 7 - 10"
+  description:  The 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 
+  link: https://www.sigmobile.org/mobihoc/2024/
+  comment: |
+    Abstract deadlines: March 24 (23:59 AoE)
+  deadline: ["2024-03-31 23:59"]
+  place: Athens, Greece
+  tags: [NET, CONF]
+
+- name: SECON
+  year: 2024
+  date: "October 7 - 10"
+  description:  The 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 
+  link: https://www.sigmobile.org/mobihoc/2024/
+  comment: |
+    Abstract deadlines: March 24 (23:59 AoE)
+  deadline: ["2024-03-31 23:59"]
+  place: Athens, Greece
+  tags: [NET, CONF]
+
+- name: CHI
+  year: 2025
+  date: "April 26 - May 1"
+  description:  The 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 
+  link: https://chi2025.acm.org/
+  comment: |
+    Abstract deadlines: September 07 (23:59 AoE)
+  deadline: ["2024-09-14 23:59"]
+  place: Yokohama, Japan
+  tags: [HCI, CONF]
+
+- name: MobileHCI
+  year: 2024
+  date: "September 30 - October 3"
+  description:  The ACM International Conference on Mobile Human-Computer Interaction 
+  link: https://mobilehci.acm.org/2024/
+  comment: |
+    Abstract deadlines: February 14 (23:59 AoE)
+  deadline: ["2024-02-21 23:59"]
+  place: Melbourne, Australia
+  tags: [HCI, CONF]
+
+- name: UIST
+  year: 2024
+  date: "October 13 - 16"
+  description:  The ACM Symposium on User Interface Software and Technology
+  link: https://uist.acm.org/2024/
+  comment: |
+    Abstract deadlines: March 27 (23:59 AoE)
+  deadline: ["2024-04-03 23:59"]
+  place: Pittsburgh, Pennsylvania, USA
+  tags: [HCI, CONF]
+
+- name: IEEE VR
+  year: 2024
+  date: "March 16 - 21"
+  description:  THE 31ST IEEE CONFERENCE ON VIRTUAL REALITY AND 3D USER INTERFACES
+  link: https://ieeevr.org/2024/
+  comment: |
+    Abstract deadlines: September 27 (23:59 AoE)
+  deadline: ["2023-10-04 23:59"]
+  place: Orlando, Florida USA
+  tags: [HCI, CONF]
+
+- name: IMWUT
+  year: 2024
+  date: "October 05 - 09"
+  description:  ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 
+  link: https://www.ubicomp.org/ubicomp-iswc-2024/
+  comment: |
+    Abstract deadlines: May 1 (23:59 AoE)
+  deadline: ["2024-05-01 23:59"]
+  place: Melbourne, Australia
+  tags: [HCI, CONF]
+
+- name: TURC
+  year: 2024
+  date: "July 05 - 07"
+  description:  ACM Turing Award Celebration Conference
+  link: https://www.acmturc.com/2024/#/index
+  comment: |
+    Abstract deadlines: July 05 (23:59 AoE)
+  deadline: ["2024-07-05 23:59"]
+  place: Changsha, China
+  tags: [NET, CONF]
+
+- name: MASS
+  year: 2024
+  date: "September 23 - October 25"
+  description: The IEEE International Conference on Mobile Ad-Hoc and Smart Systems 
+  link: https://sites.google.com/view/ieee-mass-2024/
+  comment: |
+    Abstract deadlines: April 01 (23:59 AoE)
+  deadline: ["2024-04-08 23:59"]
+  place: Seoul, South Korea
+  tags: [NET, CONF]
