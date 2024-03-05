@@ -56,11 +56,13 @@ jobs:
 
       - name: Publish to GitHub Pages
         run: npm run build
-
+      - name: Merge build results without overriding
+        run: mkdir -p public/ddl/ && cp -R networking-deadlines/_site/* public/ddl/ 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+      
       - uses: "finnp/create-file-action@master"
         env:
           FILE_NAME: "./public/CNAME"
