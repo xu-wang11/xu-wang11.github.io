@@ -9,3 +9,13 @@
   tag: CONF
 - name: Workshop
   tag: SHOP
+- name: CCF-A
+  tag: CCF-A
+- name: CCF-B
+  tag: CCF-B
+- name: CCF-C
+  tag: CCF-C
+- name: THU-A
+  tag: THU-A
+- name: THU-B
+  tag: THU-B

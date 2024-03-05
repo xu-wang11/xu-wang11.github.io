@@ -2,16 +2,4 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:https://noise-lab.net/networking-deadlines
 METHOD:PUBLISH
-BEGIN:VEVENT
-UID:www2024-0@noise-lab.net/networking-deadlines
-SUMMARY:WWW 2024 Deadline
-DESCRIPTION:Deadline for WWW 2024 May 13 - 17 Singapore\nThe Web Conference\nAbstract deadlines: October 5 (23:59 AoE)
-\nhttps://www2024.thewebconf.org/
-URL:https://www2024.thewebconf.org/
-LOCATION:Singapore
-CLASS:PUBLIC
-DTSTAMP:20240305T14401709620820Z
-DTSTART;TZID=Etc/GMT+12:20231012T235900
-DTEND;TZID=Etc/GMT+12:20231012T235959
-END:VEVENT
 END:VCALENDAR

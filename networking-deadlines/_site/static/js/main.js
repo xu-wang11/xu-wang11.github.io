@@ -186,70 +186,7 @@ $(function() {
   
   
   
-  // HotNets 2023
-  
-  var rawDeadlines = ["2023-06-30 17:59:59"] || [];
-  if (rawDeadlines.constructor !== Array) {
-    rawDeadlines = [rawDeadlines];
-  }
-  var parsedDeadlines = [];
-  while (rawDeadlines.length > 0) {
-    var rawDeadline = rawDeadlines.pop();
-    // deal with year template in deadline
-    year = 2023;
-    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
-    // adjust date according to deadline timezone
-    
-    var deadline = moment.tz(rawDeadline, "America/New_York");
-    
-
-    // post-process date
-    if (deadline.minutes() === 0) {
-      deadline.subtract(1, 'seconds');
-    }
-    if (deadline.minutes() === 59) {
-      deadline.seconds(59);
-    }
-    parsedDeadlines.push(deadline);
-  }
-  // due to pop before; we need to reverse such that the i index later matches
-  // the right parsed deadline
-  parsedDeadlines.reverse();
-
-  
-  
-  
-  var deadlineId = 0;
-  if (deadlineId < parsedDeadlines.length) {
-    var confDeadline = parsedDeadlines[deadlineId];
-
-    // render countdown timer
-    if (confDeadline) {
-      function make_update_countdown_fn(confDeadline) {
-        return function(event) {
-          diff = moment() - confDeadline
-          if (diff <= 0) {
-             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          } else {
-            $(this).html(confDeadline.fromNow());
-          }
-        }
-      }
-      $('#hotnets2023-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-      // check if date has passed, add 'past' class to it
-      if (moment() - confDeadline > 0) {
-        $('#hotnets2023-0').addClass('past');
-      }
-      $('#hotnets2023-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["hotnets2023-0"] = confDeadline;
-    }
-  } else {
-    // TODO: hide the conf_id ?
-  }
-  
-  
-  
-  // IEEE INFOCOM 2024
+  // INFOCOM 2024
   
   var rawDeadlines = ["2023-07-30 23:59:59"] || [];
   if (rawDeadlines.constructor !== Array) {
@@ -298,13 +235,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-infocom2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#infocom2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-infocom2024-0').addClass('past');
+        $('#infocom2024-0').addClass('past');
       }
-      $('#ieee-infocom2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-infocom2024-0"] = confDeadline;
+      $('#infocom2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["infocom2024-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -326,7 +263,7 @@ $(function() {
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
-    var deadline = moment.tz(rawDeadline, "Etc/UTC");
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
     
 
     // post-process date
@@ -1257,6 +1194,539 @@ $(function() {
   
   
   
+  // ASSETS 2024
+  
+  var rawDeadlines = ["2024-04-24 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#assets2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#assets2024-0').addClass('past');
+      }
+      $('#assets2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["assets2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // CSCW 2024
+  
+  var rawDeadlines = ["2023-07-18 23:59:59","2024-01-16 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#cscw2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#cscw2024-0').addClass('past');
+      }
+      $('#cscw2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["cscw2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  var deadlineId = 1;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#cscw2024-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#cscw2024-1').addClass('past');
+      }
+      $('#cscw2024-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["cscw2024-1"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // DIS 2024
+  
+  var rawDeadlines = ["2024-02-08 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#dis2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#dis2024-0').addClass('past');
+      }
+      $('#dis2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["dis2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // GROUP 2025
+  
+  var rawDeadlines = ["2024-05-08 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2025;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#group2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#group2025-0').addClass('past');
+      }
+      $('#group2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["group2025-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // ICMI 2024
+  
+  var rawDeadlines = ["2024-05-03 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#icmi2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#icmi2024-0').addClass('past');
+      }
+      $('#icmi2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["icmi2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // ISMAR 2024
+  
+  var rawDeadlines = ["2024-05-08 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#ismar2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#ismar2024-0').addClass('past');
+      }
+      $('#ismar2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ismar2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // IUI 2024
+  
+  var rawDeadlines = ["2023-10-09 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#iui2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#iui2024-0').addClass('past');
+      }
+      $('#iui2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["iui2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // IEEE PacificVis 2024
+  
+  var rawDeadlines = ["2023-11-22 23:59:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2024;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#ieee-pacificvis2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#ieee-pacificvis2024-0').addClass('past');
+      }
+      $('#ieee-pacificvis2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-pacificvis2024-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
 
   // Reorder list
   var today = moment();
@@ -1277,7 +1747,7 @@ $(function() {
   $('.conf-container').append(confs);
 
   // Set checkboxes
-  var conf_type_data = [{"name":"Networking","tag":"NET"},{"name":"Measurement","tag":"MEASURE"},{"name":"Human-Computer Interaction","tag":"HCI"},{"name":"Conference","tag":"CONF"},{"name":"Workshop","tag":"SHOP"}];
+  var conf_type_data = [{"name":"Networking","tag":"NET"},{"name":"Measurement","tag":"MEASURE"},{"name":"Human-Computer Interaction","tag":"HCI"},{"name":"Conference","tag":"CONF"},{"name":"Workshop","tag":"SHOP"},{"name":"CCF-A","tag":"CCF-A"},{"name":"CCF-B","tag":"CCF-B"},{"name":"CCF-C","tag":"CCF-C"},{"name":"THU-A","tag":"THU-A"},{"name":"THU-B","tag":"THU-B"}];
   var all_tags = [];
   var toggle_status = {};
   for (var i = 0; i < conf_type_data.length; i++) {
