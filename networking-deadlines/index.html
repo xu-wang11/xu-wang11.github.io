@@ -62,9 +62,9 @@
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <h2>
-                  {% if conf.tag contains  "CCF-A" or conf.tag contains "THU-A" %}
+                  {% if conf.tags contains  "CCF-A" or conf.tag contains "THU-A" %}
                   <a href="{{conf.link}}" class="text-success">{{conf.name}} {{conf.year}}</a>
-                  {% elsif conf.tag contains "CCF-B" or conf.tag contains "THU-B" %}
+                  {% elsif conf.tags contains "CCF-B" or conf.tag contains "THU-B" %}
                   <a href="{{conf.link}}" class="text-primary">{{conf.name}} {{conf.year}}</a>
                   {% else %}
                   <a href="{{conf.link}}" >{{conf.name}} {{conf.year}}</a>
