@@ -44,6 +44,7 @@ misc:
   - title: "[CCF推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/CN/)"
   - title: "[清华大学计算机学科群推荐学术会议和期刊列表](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf)"
   - title: "[清华大学全球创新学院招生](https://gix.tsinghua.edu.cn/zs1.htm)"
+  - title: "[Upcoming Conference](https://wangxu.ai/ddl/index.html)"
 
 # Features
 features:
