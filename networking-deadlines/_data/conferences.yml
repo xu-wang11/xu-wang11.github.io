@@ -214,7 +214,7 @@
     Abstract deadlines: April 24 (23:59 AoE)
   deadline: ['2024-04-24 23:59:59']
   place: St Johns, Newfoundland and Labrador, Canada
-  tag: [HCI, CONF, CCF-C]
+  tags: [HCI, CONF, CCF-C]
 
 - name: CSCW
   year: 2024
@@ -225,7 +225,7 @@
     CSCW uses a two-cycle review process
   deadline: ['2023-07-18 23:59:59', '2024-01-16 23:59:59']
   place: San José, Costa Rica
-  tag: [HCI, CONF, CCF-A, THU-A]
+  tags: [HCI, CONF, CCF-A, THU-A]
 
 - name: DIS
   year: 2024
@@ -236,7 +236,7 @@
     Abstract deadlines: February 01 (23:59 AoE)
   deadline: ['2024-02-08 23:59:59']
   place: Copenhagen, Denmark
-  tag: [HCI, CONF, CCF-C, THU-B]
+  tags: [HCI, CONF, CCF-C, THU-B]
 
 - name: GROUP
   year: 2025
@@ -247,7 +247,7 @@
     Abstract deadlines: May 01 (23:59 AoE)
   deadline: ['2024-05-08 23:59:59']
   place: Sonesta Resort, South Carolina, USA
-  tag: [HCI, CONF, CCF-B]
+  tags: [HCI, CONF, CCF-B]
 
 - name: ICMI
   year: 2024
@@ -258,7 +258,7 @@
     Abstract deadlines: April 26 (23:59 AoE)
   deadline: ['2024-05-03 23:59:59']
   place: San José, Costa Rica
-  tag: [HCI, CONF, CCF-C, THU-B]
+  tags: [HCI, CONF, CCF-C, THU-B]
 
 - name: ISMAR
   year: 2024
@@ -269,7 +269,7 @@
     Abstract deadlines: May 03 (23:59 AoE)
   deadline: ['2024-05-08 23:59:59']
   place: Greater Seattle Area, USA
-  tag: [HCI, CONF, CCF-B, THU-B]
+  tags: [HCI, CONF, CCF-B, THU-B]
 
 
 
@@ -282,7 +282,7 @@
     Abstract deadlines: October 02 (23:59 AoE)
   deadline: ['2023-10-09 23:59:59']
   place: Greenville, South Carolina, USA
-  tag: [HCI, CONF, CCF-B, THU-B]
+  tags: [HCI, CONF, CCF-B, THU-B]
 
 
 
@@ -295,4 +295,4 @@
     Abstract deadlines: November 16 (23:59 AoE)
   deadline: ['2023-11-22 23:59:59']
   place: Tokyo, Japan
-  tag: [HCI, CONF, CCF-C, THU-B]
+  tags: [HCI, CONF, CCF-C, THU-B]
