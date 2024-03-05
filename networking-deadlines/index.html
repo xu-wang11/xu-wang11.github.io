@@ -65,9 +65,9 @@
                   {% if conf.tags contains  "CCF-A" or conf.tag contains "THU-A" %}
                   <a href="{{conf.link}}" class="text-primary">{{conf.name}} {{conf.year}}</a>
                   {% elsif conf.tags contains "CCF-B" or conf.tag contains "THU-B" %}
-                  <a href="{{conf.link}}" class="text-info">{{conf.name}} {{conf.year}}</a>
+                  <a href="{{conf.link}}" class="text-pink">{{conf.name}} {{conf.year}}</a>
                   {% else %}
-                  <a href="{{conf.link}}" >{{conf.name}} {{conf.year}}</a>
+                  <a href="{{conf.link}}" class="text-orange">{{conf.name}} {{conf.year}}</a>
                   {% endif %}
                 
                 </h2>
