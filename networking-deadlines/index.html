@@ -70,7 +70,16 @@
         <div id="{{ conf_id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
-                <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <h2>
+                  {% if conf.tag contains  "CCF-A" or conf.tag contains "THU-A" %}
+                  <a href="{{conf.link}}" class="text-success">{{conf.name}} {{conf.year}}</a>
+                  {% elsif conf.tag contains "CCF-B" or conf.tag contains "THU-B" %}
+                  <a href="{{conf.link}}" class="text-primary">{{conf.name}} {{conf.year}}</a>
+                  {% else %}
+                  <a href="{{conf.link}}" >{{conf.name}} {{conf.year}}</a>
+                  {% endif %}
+                
+                </h2>
                 <div class="meta">
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a target="_blank" rel="noopener noreferrer" href="https://google.com/search?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>

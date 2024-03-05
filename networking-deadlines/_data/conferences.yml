@@ -210,6 +210,8 @@
   date: "October, 27 - 30"
   description: "The 26th International ACM SIGACCESS Conference on Computers and Accessibility"
   link: https://assets24.sigaccess.org
+  comment: |
+    Abstract deadlines: April 24 (23:59 AoE)
   deadline: ['2024-04-24 23:59:59']
   place: St Johns, Newfoundland and Labrador, Canada
   tag: [HCI, CONF, CCF-C]
@@ -219,6 +221,8 @@
   date: "November 9 - 13"
   description: "The 27th ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing"
   link: https://cscw.acm.org/2024/
+  comment: |
+    CSCW uses a two-cycle review process
   deadline: ['2023-07-18 23:59:59', '2024-01-16 23:59:59']
   place: San José, Costa Rica
   tag: [HCI, CONF, CCF-A, THU-A]
@@ -228,6 +232,8 @@
   date: "July, 1 - 5"
   description: "ACM Conference on Designing Interactive Systems"
   link: https://dis.acm.org/2024/
+  comment: |
+    Abstract deadlines: February 01 (23:59 AoE)
   deadline: ['2024-02-08 23:59:59']
   place: Copenhagen, Denmark
   tag: [HCI, CONF, CCF-C, THU-B]
@@ -237,6 +243,8 @@
   date: "January, 12 - 15"
   description: "ACM International Conference on Supporting Group Work"
   link: https://group.acm.org/conferences/group25/
+  comment: |
+    Abstract deadlines: May 01 (23:59 AoE)
   deadline: ['2024-05-08 23:59:59']
   place: Sonesta Resort, South Carolina, USA
   tag: [HCI, CONF, CCF-B]
@@ -246,6 +254,8 @@
   date: "November, 4 - 8"
   description: "The 26th International Conference on Multimodal Interaction"
   link: https://icmi.acm.org/2024/call-for-papers/
+  comment: |
+    Abstract deadlines: April 26 (23:59 AoE)
   deadline: ['2024-05-03 23:59:59']
   place: San José, Costa Rica
   tag: [HCI, CONF, CCF-C, THU-B]
@@ -255,6 +265,8 @@
   date: "October, 21 - 25"
   description: "The 23rd IEEE International Symposium on Mixed and Augmented Reality"
   link: https://ieeeismar.org/cfp/
+  comment: |
+    Abstract deadlines: May 03 (23:59 AoE)
   deadline: ['2024-05-08 23:59:59']
   place: Greater Seattle Area, USA
   tag: [HCI, CONF, CCF-B, THU-B]
@@ -266,6 +278,8 @@
   date: "March, 18 - 21"
   description: "ACM Conference on Intelligent User Interfaces"
   link: https://iui.acm.org/2024/call_for_papers.html
+  comment: |
+    Abstract deadlines: October 02 (23:59 AoE)
   deadline: ['2023-10-09 23:59:59']
   place: Greenville, South Carolina, USA
   tag: [HCI, CONF, CCF-B, THU-B]
@@ -277,6 +291,8 @@
   date: "April, 23 - 26"
   description: "IEEE Pacific Visualization Symposium"
   link: https://pacificvis.github.io/pvis2024/
+  comment: |
+    Abstract deadlines: November 16 (23:59 AoE)
   deadline: ['2023-11-22 23:59:59']
   place: Tokyo, Japan
   tag: [HCI, CONF, CCF-C, THU-B]

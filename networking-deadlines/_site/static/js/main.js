@@ -1747,7 +1747,7 @@ $(function() {
   $('.conf-container').append(confs);
 
   // Set checkboxes
-  var conf_type_data = [{"name":"Networking","tag":"NET"},{"name":"Measurement","tag":"MEASURE"},{"name":"Human-Computer Interaction","tag":"HCI"},{"name":"Conference","tag":"CONF"},{"name":"Workshop","tag":"SHOP"},{"name":"CCF-A","tag":"CCF-A"},{"name":"CCF-B","tag":"CCF-B"},{"name":"CCF-C","tag":"CCF-C"},{"name":"THU-A","tag":"THU-A"},{"name":"THU-B","tag":"THU-B"}];
+  var conf_type_data = [{"name":"Networking","tag":"NET"},{"name":"Human-Computer Interaction","tag":"HCI"},{"name":"CCF-A","tag":"CCF-A"},{"name":"CCF-B","tag":"CCF-B"},{"name":"CCF-C","tag":"CCF-C"},{"name":"THU-A","tag":"THU-A"},{"name":"THU-B","tag":"THU-B"}];
   var all_tags = [];
   var toggle_status = {};
   for (var i = 0; i < conf_type_data.length; i++) {
