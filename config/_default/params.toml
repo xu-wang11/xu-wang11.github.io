@@ -56,9 +56,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["Xu Wang", "王需", "清华", "Tsinghua", "全球创新学院", "GIX", "大模型", "LLM"]
+description = "Xu Wang received his B.E. and Ph.D. degrees in software engineering from Tsinghua University, Beijing, in 2015 and 2020, respectively. He is a research assistant professor at the Global Innovation Exchange, Tsinghua University, Beijing."
+author = "Xu Wang"
 image = "images/og-image.png"
 
 
