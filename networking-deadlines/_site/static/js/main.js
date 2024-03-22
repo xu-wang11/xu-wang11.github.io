@@ -501,9 +501,9 @@ $(function() {
   
   
   
-  // SenSys 2023
+  // SenSys 2024
   
-  var rawDeadlines = ["2023-06-29 23:59"] || [];
+  var rawDeadlines = ["2023-07-01 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -511,7 +511,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2023;
+    year = 2024;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -550,13 +550,13 @@ $(function() {
           }
         }
       }
-      $('#sensys2023-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#sensys2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#sensys2023-0').addClass('past');
+        $('#sensys2024-0').addClass('past');
       }
-      $('#sensys2023-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["sensys2023-0"] = confDeadline;
+      $('#sensys2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["sensys2024-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
