@@ -91,7 +91,7 @@
   link: https://sensys.acm.org/2024/
   comment: |
     Abstract deadlines: June 24 (23:59 AoE)
-  deadline: ["2023-07-01 23:59"]
+  deadline: ["2024-07-01 23:59"]
   place: Hangzhou, China
   tags: [NET, CONF, CCF-B, THU-A]
 
@@ -107,17 +107,6 @@
   tags: [NET, CONF, CCF-B, THU-A]
 
 - name: MOBIHOC
-  year: 2024
-  date: "October 7 - 10"
-  description:  The 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 
-  link: https://www.sigmobile.org/mobihoc/2024/
-  comment: |
-    Abstract deadlines: March 24 (23:59 AoE)
-  deadline: ["2024-03-31 23:59"]
-  place: Athens, Greece
-  tags: [NET, CONF, CCF-B, THU-B]
-
-- name: SECON
   year: 2024
   date: "October 7 - 10"
   description:  The 25th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 
