@@ -1007,7 +1007,7 @@ $(function() {
   
   // TURC 2024
   
-  var rawDeadlines = ["2024-07-05 23:59"] || [];
+  var rawDeadlines = ["2024-05-10 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }

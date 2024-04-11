@@ -178,8 +178,8 @@
   description:  ACM Turing Award Celebration Conference
   link: https://www.acmturc.com/2024/#/index
   comment: |
-    Abstract deadlines: July 05 (23:59 AoE)
-  deadline: ["2024-07-05 23:59"]
+    Abstract deadlines: May 10 (23:59 AoE)
+  deadline: ["2024-05-10 23:59"]
   place: Changsha, China
   tags: [NET, CONF]
 
