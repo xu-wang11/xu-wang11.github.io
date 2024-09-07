@@ -6,6 +6,7 @@ description: "* Corresponding Author"
 # publications
 publications:
 
+
   - type: "Conference"
     name: "INFOCOM'24"
     title: "BlueKey: Exploiting Bluetooth Low Energy for Enhanced Physical-Layer Key Generation"
@@ -26,6 +27,30 @@ publications:
     publisher: "IEEE Conference on Computer Communications"
     date: "May 2024"
     pdf: "INFOCOM24_InNetScheduler.pdf"
+    slides: ""
+    video: ""
+    awards: ""
+
+  - type: "Journal"
+    name: "TOSN'24"
+    title: "A Liquidity Analysis System for Large-scale Video Streams in the Oilfield"
+    author: "Qiang Ma*, Hao Yuan, Zhe Hu, **Xu Wang**, Zheng Yang"
+    link: "https://dl.acm.org/doi/10.1145/3649222"
+    publisher: "ACM Transactions on Sensor Networks"
+    date: "April 2024"
+    pdf: "TOSN24_Liquidity.pdf"
+    slides: ""
+    video: ""
+    awards: ""
+  
+  - type: "Journal"
+    name: "TOSN'24"
+    title: "BEANet: An Energy-efficient BLE Solution for High-capacity Equipment Area Network"
+    author: "Yifan Xu, Fan Dang, Kebin Liu, Zhui Zhu, Xinlei Chen, **Xu Wang**, Xin Miao, Haitian Zhao"
+    link: "https://dl.acm.org/doi/10.1145/3641280"
+    publisher: "ACM Transactions on Sensor Networks"
+    date: "April 2024"
+    pdf: "TOSN24_BEANET.pdf"
     slides: ""
     video: ""
     awards: ""
