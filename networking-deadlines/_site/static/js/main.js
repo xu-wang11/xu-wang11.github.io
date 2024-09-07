@@ -186,9 +186,9 @@ $(function() {
   
   
   
-  // INFOCOM 2024
+  // INFOCOM 2025
   
-  var rawDeadlines = ["2023-07-30 23:59:59"] || [];
+  var rawDeadlines = ["2023-07-31 23:59:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -196,7 +196,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -235,13 +235,13 @@ $(function() {
           }
         }
       }
-      $('#infocom2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#infocom2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#infocom2024-0').addClass('past');
+        $('#infocom2025-0').addClass('past');
       }
-      $('#infocom2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["infocom2024-0"] = confDeadline;
+      $('#infocom2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["infocom2025-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -312,9 +312,9 @@ $(function() {
   
   
   
-  // WWW 2024
+  // WWW 2025
   
-  var rawDeadlines = ["2023-10-12 23:59"] || [];
+  var rawDeadlines = ["2024-10-14 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -322,7 +322,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -361,13 +361,105 @@ $(function() {
           }
         }
       }
-      $('#www2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#www2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#www2024-0').addClass('past');
+        $('#www2025-0').addClass('past');
       }
-      $('#www2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["www2024-0"] = confDeadline;
+      $('#www2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["www2025-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  
+  // MobiCom 2025
+  
+  var rawDeadlines = ["2024-09-05 23:59","2025-03-18 23:59"] || [];
+  if (rawDeadlines.constructor !== Array) {
+    rawDeadlines = [rawDeadlines];
+  }
+  var parsedDeadlines = [];
+  while (rawDeadlines.length > 0) {
+    var rawDeadline = rawDeadlines.pop();
+    // deal with year template in deadline
+    year = 2025;
+    rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
+    // adjust date according to deadline timezone
+    
+    var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
+    
+
+    // post-process date
+    if (deadline.minutes() === 0) {
+      deadline.subtract(1, 'seconds');
+    }
+    if (deadline.minutes() === 59) {
+      deadline.seconds(59);
+    }
+    parsedDeadlines.push(deadline);
+  }
+  // due to pop before; we need to reverse such that the i index later matches
+  // the right parsed deadline
+  parsedDeadlines.reverse();
+
+  
+  
+  
+  var deadlineId = 0;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#mobicom2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#mobicom2025-0').addClass('past');
+      }
+      $('#mobicom2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["mobicom2025-0"] = confDeadline;
+    }
+  } else {
+    // TODO: hide the conf_id ?
+  }
+  
+  
+  var deadlineId = 1;
+  if (deadlineId < parsedDeadlines.length) {
+    var confDeadline = parsedDeadlines[deadlineId];
+
+    // render countdown timer
+    if (confDeadline) {
+      function make_update_countdown_fn(confDeadline) {
+        return function(event) {
+          diff = moment() - confDeadline
+          if (diff <= 0) {
+             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          } else {
+            $(this).html(confDeadline.fromNow());
+          }
+        }
+      }
+      $('#mobicom2025-1 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      // check if date has passed, add 'past' class to it
+      if (moment() - confDeadline > 0) {
+        $('#mobicom2025-1').addClass('past');
+      }
+      $('#mobicom2025-1 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["mobicom2025-1"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -879,9 +971,9 @@ $(function() {
   
   
   
-  // IEEE VR 2024
+  // IEEE VR 2025
   
-  var rawDeadlines = ["2023-10-04 23:59"] || [];
+  var rawDeadlines = ["2024-09-18 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -889,7 +981,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -928,13 +1020,13 @@ $(function() {
           }
         }
       }
-      $('#ieee-vr2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#ieee-vr2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#ieee-vr2024-0').addClass('past');
+        $('#ieee-vr2025-0').addClass('past');
       }
-      $('#ieee-vr2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["ieee-vr2024-0"] = confDeadline;
+      $('#ieee-vr2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["ieee-vr2025-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -1286,9 +1378,9 @@ $(function() {
   
   
   
-  // DIS 2024
+  // DIS 2025
   
-  var rawDeadlines = ["2024-02-08 23:59:59"] || [];
+  var rawDeadlines = ["2025-01-19 23:59:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -1296,7 +1388,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -1335,13 +1427,13 @@ $(function() {
           }
         }
       }
-      $('#dis2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#dis2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#dis2024-0').addClass('past');
+        $('#dis2025-0').addClass('past');
       }
-      $('#dis2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["dis2024-0"] = confDeadline;
+      $('#dis2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["dis2025-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?
@@ -1538,9 +1630,9 @@ $(function() {
   
   
   
-  // IUI 2024
+  // IUI 2025
   
-  var rawDeadlines = ["2023-10-09 23:59:59"] || [];
+  var rawDeadlines = ["2024-10-09 23:59:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -1548,7 +1640,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -1587,13 +1679,13 @@ $(function() {
           }
         }
       }
-      $('#iui2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#iui2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#iui2024-0').addClass('past');
+        $('#iui2025-0').addClass('past');
       }
-      $('#iui2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["iui2024-0"] = confDeadline;
+      $('#iui2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["iui2025-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?

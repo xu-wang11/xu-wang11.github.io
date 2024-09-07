@@ -29,14 +29,14 @@
   tags: [NET, CONF, CCF-B, THU-A]
 
 - name: INFOCOM
-  year: 2024
-  date: "May 20 - 23"
+  year: 2025
+  date: "May 19 - 22"
   description: IEEE International Conference on Computer Communications
-  link: https://infocom2024.ieee-infocom.org/
+  link: https://infocom2025.ieee-infocom.org/
   comment: |
-    Abstract deadline: July 23 (23:59 AoE)
-  deadline: ["2023-07-30 23:59:59"]
-  place: Vancouver, British Columbia, Canada
+    Abstract deadline: July 24 (23:59 AoE)
+  deadline: ["2023-07-31 23:59:59"]
+  place: London, United Kingdom
   tags: [NET, CONF, CCF-A, THU-A]
 
 - name: SIGCOMM
@@ -51,20 +51,32 @@
   tags: [NET, CONF, CCF-A, THU-A]
 
 - name: WWW
-  year: 2024
-  date: "May 13 - 17"
+  year: 2025
+  date: "April 28 - May 2"
   description: The Web Conference
-  link: https://www2024.thewebconf.org/
+  link: https://www2025.thewebconf.org/
   comment: |
-    Abstract deadlines: October 5 (23:59 AoE)
-  deadline: ["2023-10-12 23:59"]
-  place: Singapore
+    Abstract deadlines: October 7 (23:59 AoE)
+  deadline: ["2024-10-14 23:59"]
+  place: Sydney, Australia
   tags: [NET, CONF, CCF-A, THU-A]
 
+- name: MobiCom
+  year: 2025
+  date: "Nov. 2025 "
+  description: Annual conferences sponsored by ACM SIGMOBILE
+  link: https://www.sigmobile.org/mobicom/2025/index.html
+  comment: |
+    Abstract deadlines: Aug 29 (23:59 AoE)
+  deadline: 
+    - "2024-09-05 23:59"
+    - "2025-03-18 23:59"
+  place: Hong Kong, China
+  tags: [NET, CONF, CCF-A, THU-A]
 
 - name: MobiCom
   year: 2024
-  date: "Fall"
+  date: "Nov. 18-22 "
   description: Annual conferences sponsored by ACM SIGMOBILE
   link: https://www.sigmobile.org/mobicom/2024/index.html
   comment: |
@@ -86,7 +98,7 @@
 
 - name: SenSys
   year: 2024
-  date: "November"
+  date: "November 4-7"
   description: The 22th ACM Conference on Embedded Networked Sensor Systems
   link: https://sensys.acm.org/2024/
   comment: |
@@ -151,14 +163,14 @@
   tags: [HCI, CONF, CCF-A, THU-A]
 
 - name: IEEE VR
-  year: 2024
-  date: "March 16 - 21"
-  description:  THE 31ST IEEE CONFERENCE ON VIRTUAL REALITY AND 3D USER INTERFACES
-  link: https://ieeevr.org/2024/
+  year: 2025
+  date: "March 8 - 12"
+  description:  THE 32ST IEEE CONFERENCE ON VIRTUAL REALITY AND 3D USER INTERFACES
+  link: https://ieeevr.org/2025/
   comment: |
-    Abstract deadlines: September 27 (23:59 AoE)
-  deadline: ["2023-10-04 23:59"]
-  place: Orlando, Florida USA
+    Abstract deadlines: September 11 (23:59 AoE)
+  deadline: ["2024-09-18 23:59"]
+  place: Saint-Malo, France
   tags: [HCI, CONF, CCF-A, THU-A]
 
 - name: IMWUT
@@ -217,14 +229,14 @@
   tags: [HCI, CONF, CCF-A, THU-A]
 
 - name: DIS
-  year: 2024
-  date: "July, 1 - 5"
+  year: 2025
+  date: "July, 5 - 9"
   description: "ACM Conference on Designing Interactive Systems"
-  link: https://dis.acm.org/2024/
+  link: https://dis.acm.org/2025/
   comment: |
-    Abstract deadlines: February 01 (23:59 AoE)
-  deadline: ['2024-02-08 23:59:59']
-  place: Copenhagen, Denmark
+    Abstract deadlines: Jan 12 (23:59 AoE)
+  deadline: ['2025-01-19 23:59:59']
+  place: Funchal, Madeira
   tags: [HCI, CONF, CCF-C, THU-B]
 
 - name: GROUP
@@ -263,14 +275,14 @@
 
 
 - name: IUI
-  year: 2024
-  date: "March, 18 - 21"
+  year: 2025
+  date: "March 24 - 27"
   description: "ACM Conference on Intelligent User Interfaces"
-  link: https://iui.acm.org/2024/call_for_papers.html
+  link: https://iui.acm.org/2025/
   comment: |
     Abstract deadlines: October 02 (23:59 AoE)
-  deadline: ['2023-10-09 23:59:59']
-  place: Greenville, South Carolina, USA
+  deadline: ['2024-10-09 23:59:59']
+  place: Cagliari, Italy
   tags: [HCI, CONF, CCF-B, THU-B]
 
 

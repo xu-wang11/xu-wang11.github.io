@@ -37,7 +37,7 @@ biography: "<p>Xu Wang received his B.E. and Ph.D. degrees in software engineeri
 
 # talks
 talks:
-  - title: "[智造时代：从数字先行到工业互联网](智造时代从数字先行到工业互联网.pdf)"
+  - title: "智造时代：从数字先行到工业互联网. 中国图灵大会2023."
 
 # misc
 misc:
