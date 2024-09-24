@@ -188,7 +188,7 @@ $(function() {
   
   // INFOCOM 2025
   
-  var rawDeadlines = ["2023-07-31 23:59:59"] || [];
+  var rawDeadlines = ["2023-07-31 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -251,7 +251,7 @@ $(function() {
   
   // ICDCS 2025
   
-  var rawDeadlines = ["2024-12-11 23:59:59"] || [];
+  var rawDeadlines = ["2024-12-11 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }

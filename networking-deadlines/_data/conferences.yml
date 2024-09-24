@@ -35,7 +35,7 @@
   link: https://infocom2025.ieee-infocom.org/
   comment: |
     Abstract deadline: July 24 (23:59 AoE)
-  deadline: ["2023-07-31 23:59:59"]
+  deadline: ["2023-07-31 23:59"]
   place: London, United Kingdom
   tags: [NET, CONF, CCF-A, THU-A]
 
@@ -46,7 +46,7 @@
   link: https://icdcs2025.icdcs.org/
   comment: |
     Abstract deadline: Dec 4 (23:59 AoE)
-  deadline: ["2024-12-11 23:59:59"]
+  deadline: ["2024-12-11 23:59"]
   place: Glasgow, Scotland, United Kingdom
   tags: [NET, CONF, CCF-B, THU-B]
 
