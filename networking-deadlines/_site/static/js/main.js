@@ -314,7 +314,7 @@ $(function() {
   
   // SIGCOMM 2024
   
-  var rawDeadlines = ["2024-02-02 23:59"] || [];
+  var rawDeadlines = ["2025-01-31 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -593,9 +593,9 @@ $(function() {
   
   
   
-  // MobiSys 2024
+  // MobiSys 2025
   
-  var rawDeadlines = ["2023-11-30 23:59"] || [];
+  var rawDeadlines = ["2024-12-09 23:59"] || [];
   if (rawDeadlines.constructor !== Array) {
     rawDeadlines = [rawDeadlines];
   }
@@ -603,7 +603,7 @@ $(function() {
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
     // deal with year template in deadline
-    year = 2024;
+    year = 2025;
     rawDeadline = rawDeadline.replace('%y', year).replace('%Y', year - 1);
     // adjust date according to deadline timezone
     
@@ -642,13 +642,13 @@ $(function() {
           }
         }
       }
-      $('#mobisys2024-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
+      $('#mobisys2025-0 .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
       // check if date has passed, add 'past' class to it
       if (moment() - confDeadline > 0) {
-        $('#mobisys2024-0').addClass('past');
+        $('#mobisys2025-0').addClass('past');
       }
-      $('#mobisys2024-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-      deadlineByConf["mobisys2024-0"] = confDeadline;
+      $('#mobisys2025-0 .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+      deadlineByConf["mobisys2025-0"] = confDeadline;
     }
   } else {
     // TODO: hide the conf_id ?

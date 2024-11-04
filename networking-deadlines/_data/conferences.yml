@@ -52,13 +52,13 @@
 
 - name: SIGCOMM
   year: 2024
-  date: "August 4 - 8"
+  date: "September 8 - 11"
   description: Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication
   link: https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html/
   comment: |
-    Abstract deadline: January 26 (23:59 UTC)
-  deadline: ["2024-02-02 23:59"]
-  place: Sydney, Australia
+    Abstract deadline: January 24 (23:59 UTC)
+  deadline: ["2025-01-31 23:59"]
+  place: Coimbra, Portugal
   tags: [NET, CONF, CCF-A, THU-A]
 
 - name: WWW
@@ -97,14 +97,14 @@
   tags: [NET, CONF, CCF-A, THU-A]
 
 - name: MobiSys
-  year: 2024
-  date: "June 3 - 7"
+  year: 2025
+  date: "June 23 - 27"
   description: The 22nd ACM International Conference on Mobile Systems, Applications, and Services
-  link: https://www.sigmobile.org/mobisys/2024/
+  link: https://www.sigmobile.org/mobisys/2025/
   comment: |
-    Abstract deadlines: November 23 (23:59 AoE)
-  deadline: ["2023-11-30 23:59"]
-  place: Tokyo, Japan
+    Abstract deadlines: December 2 (23:59 AoE)
+  deadline: ["2024-12-09 23:59"]
+  place: Anaheim, California, US
   tags: [NET, CONF, CCF-A, THU-A]
 
 - name: SenSys
