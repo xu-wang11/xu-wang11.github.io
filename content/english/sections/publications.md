@@ -8,6 +8,18 @@ publications:
 
 
   - type: "Conference"
+    name: "INFOCOM'25"
+    title: "DoMo: Rethinking Downscaling for Mobile Neural-enhanced Video Streaming"
+    author: "Zhui Zhu, **Xu Wang***, Jingao Xu, Weichen Zhang, Yankun Yuan, Lin Wang, Fan DANG, Yunhao Liu"
+    link: ""
+    publisher: "IEEE Conference on Computer Communications"
+    date: "May 2025"
+    pdf: "INFOCOM25_DoMo.pdf"
+    slides: ""
+    video: ""
+    awards: ""
+
+  - type: "Conference"
     name: "INFOCOM'24"
     title: "BlueKey: Exploiting Bluetooth Low Energy for Enhanced Physical-Layer Key Generation"
     author: "Yawen Zheng, Fan Dang*, Zihao Yang, Jinyan Jiang, **Xu Wang**, Lin Wang, Kebin Liu, Xinlei Chen, Yunhao Liu"
