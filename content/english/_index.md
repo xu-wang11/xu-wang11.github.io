@@ -20,10 +20,15 @@ banner:
 
 # news
 news:
+  - date: "**12/06/2024**"
+    content: "Our work DoMo was accepted on **IEEE INFOCOM 2025**."
+  
   - date: "**01/15/2024**"
     content: "Our work BEANet was accepted on **ACM Transactions on Sensor Networks**."
+  
   - date: "**01/12/2024**"
     content: "Our work about Video Conference Systems was published on **IEEE Transactions on Consumer Electronics**."
+
   - date: "**01/01/2024**"
     content: "Happy New Year of the **Dragon**."
 
