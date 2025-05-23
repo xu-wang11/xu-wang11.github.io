@@ -20,6 +20,9 @@ banner:
 
 # news
 news:
+  - date: "**30/04/2025**"
+    content: "Our work 《面向实时视频流分析的边缘计算技术》 获选中国科学热点论文奖 **."
+
   - date: "**12/06/2024**"
     content: "Our work DoMo was accepted on **IEEE INFOCOM 2025**."
   
