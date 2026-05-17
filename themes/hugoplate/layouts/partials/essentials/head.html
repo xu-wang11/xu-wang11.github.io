@@ -29,13 +29,15 @@
 
 
 <!-- google analytics -->
-{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
-  {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BRZ2JH4W0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-<!-- google tag manager -->
-{{ partialCached "gtm.html" . }}
+  gtag('config', 'G-0BRZ2JH4W0');
+</script>
 
 
 <!-- search index -->
